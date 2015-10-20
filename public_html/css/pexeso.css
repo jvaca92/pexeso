@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2015, 12:01:01 AM
+    Author     : Jenda
+*/
+
+
+.plocha{
+    text-align: center;
+    
+}
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: dodgerblue;
+                  border-radius: 5px;
+                  display: inline-block;
+                  
+}
+
+.radek{
+    text-align: center;
+   display: inline-block;
+    
+}
+
+.nadpis
+{
+font-weight:bold;
+color:#000000;
+letter-spacing:4pt;
+word-spacing:2pt;
+font-size:50px;
+text-align:center;
+font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+line-height:2;
+}
