@@ -7,26 +7,61 @@ and open the template in the editor.
     Created on : Oct 21, 2015, 12:01:01 AM
     Author     : Jenda
 */
+ * {
+                font-family: Arial, "Free Sans";
+            }
 
+            #boxcard {
+                margin: 0 auto;
+                width: 625px;
+                z-index: 1;
+            }
 
-.plocha{
-    text-align: center;
-    
-}
-.square {
-	width: 200px;
-	height: 200px;
-	background-color: dodgerblue;
-                  border-radius: 5px;
-                  display: inline-block;
-                  
-}
+            #boxcard div {
+                float: left;
+                width: 100px;
+                height: 100px;
+                background: #d9d9d9;
+                margin: 5px;
+                padding: 5px;
+                border: 1px solid #999;
+                cursor: pointer;
+                -webkit-border-radius: .5em;
+                -moz-border-radius: .5em;
+                border-radius: .5em;
+                -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+                -moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+                box-shadow: 0 1px 2px rgba(0,0,0,.5);
+                z-index: 2;
+            }
 
-.radek{
-    text-align: center;
-   display: inline-block;
-    
-}
+            #boxcard div img {
+                border: none;
+                z-index: 3;
+            }
+
+            .opacity {
+                opacity: .6;
+                filter: alpha(opacity=60);
+            }
+
+            #boxbutton {
+                text-align: center;
+                padding: 20px;
+            }
+            .link {
+                font-size: 18px;
+                color: #ffffff;
+                text-decoration: none;
+                background: #0066cc;
+                padding: 5px 10px;
+                -webkit-border-radius: .5em;
+                -moz-border-radius: .5em;
+                border-radius: .5em;
+            }
+            .link:hover {
+                background: #999;
+            }
 
 .nadpis
 {
@@ -39,3 +74,5 @@ text-align:center;
 font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
 line-height:2;
 }
+
+
